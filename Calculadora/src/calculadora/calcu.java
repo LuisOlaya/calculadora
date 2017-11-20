@@ -29,8 +29,8 @@ public class calcu {
         return ans;
     }
     public double division(int a, int b){
-        ans = (int)(a / b);
-        return ans;
+        double c = (a / b);
+        return c;
     }
     public void limpiar(){
         ans = 0;
