@@ -96,9 +96,10 @@ public class calcuTest {
         System.out.println("division");
         int a = 4;
         int b = 2;
-        double expResult = 2.0;
+        double expResult = 2.09;
         double result = calc.division(a, b);
         assertEquals(expResult, result,0.1);
+        
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
